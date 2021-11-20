@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+* {
+  font-family: 'Indie Flower', cursive;
+
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 35px;
+    background-image: linear-gradient(30deg, rgb(119, 0, 255), rgb(155, 33, 138));
+
+    .row {
+      display: flex;
+    }
+
+    .centered {
+      align-items: center;
+      justify-content: center;
+    }
+
+    .col {
+      display: flex;
+      flex-direction: column;
+    }
+    .green{
+      background-color: green;
+    }
+    .red{
+      background-color: rgb(173, 36, 36);
+    }
+    .blue{
+      background-color: rgb(71, 71, 187);
+    }
+    .orange{
+      background-color: rgb(218, 119, 38);
+    }
+    .yellow{
+      background-color: yellow;
+    }
+    .purple{
+      background-color: purple;
+    }
+  }
+}
